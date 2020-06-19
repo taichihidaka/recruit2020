@@ -1,0 +1,886 @@
+html,body,main,footer,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+html{
+  overflow-x: hidden;
+}
+.main{
+  padding-bottom: 600px;
+}
+
+@media screen and (max-width:480px){
+  html{
+    max-width: 100%;
+    overflow-x: hidden;
+    max-width: 480px;
+  }
+  body{
+    max-width:100%;
+  }
+  main{
+    width: 100%;
+  }
+ 
+}
+.top{
+  position: relative;
+ top: 100px;
+ text-align: center;
+ margin: 0;
+ font-family: 'Spartan', sans-serif;
+ color: gray;
+ font-size: 90px;
+ border-bottom: 1px solid gray;
+}
+
+.app-works{
+  margin-top: 150px;
+ 
+}
+.sab-name{
+  display: none !important;
+}
+.app-mob{
+display: none !important;
+}
+.app-web{
+  display: flex !important;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  border-bottom: 2px solid black;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.pic-app{
+  display: none !important;
+}
+.app-works h3{
+  position: relative;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.app-img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.app-text{
+  position: relative;
+  width:75%;
+  margin: auto;
+  font-size:20px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.app-1{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+.app-left{
+  width: 40%;
+  margin: 15px 5% 0 5%;
+  font-size:20px;
+}
+.app-right{
+  width: 40%;
+  margin: 15px 5% 0 5%;
+  font-size:20px;
+}
+.app-left p{
+ text-align: center;
+ font-weight:500;
+ font-size:25px;
+}
+.app-right p{
+  text-align: center;
+  font-weight:500;
+  font-size:25px;
+}
+.icon{
+
+ width: 85%;
+text-align: center;
+margin: auto;
+margin-bottom: 50px;
+font-family: 'Noto Sans JP', sans-serif;
+font-size:25px;
+height: 100px;
+}
+
+.yoko-right{
+  
+  float: left;
+  width: 17%;
+  margin: 0;
+  margin-left: 5%;
+  
+}
+.yoko-middle{
+  float: left;
+  width: 17%;
+  margin: 0;
+  margin-left: 5%;
+}
+.yoko-left{
+  float: left;
+  width: 17%;
+  margin: 0;
+  margin-left: 19%;
+  margin-bottom: 70px;
+}
+.yoko-left p{
+  display: none !important;
+}
+.yoko-middle p{
+  display: none !important;
+}
+.yoko-right p{
+  display: none !important;
+}
+
+.apps{
+  text-align: center;
+  width: 180px;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+}
+@media screen and (max-width:1666px){
+  .icon{
+
+    width: 85%;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 50px;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-size:25px;
+   height: 100px;
+   }
+   
+   .yoko-right{
+     
+     float: left;
+     width: 20%;
+     margin: 0;
+     margin-left: 5%;
+     
+   }
+   .yoko-middle{
+     float: left;
+     width: 20%;
+     margin: 0;
+     margin-left: 5%;
+   }
+   .yoko-left{
+     float: left;
+     width: 20%;
+     margin: 0;
+     margin-left: 12%;
+     margin-bottom: 70px;
+   }
+}
+
+@media screen and (max-width:480px){
+  /*.sab{
+    width: 100%;
+    margin: 0;
+  }*/
+  .top{
+    font-size: 60px;
+    color: gray;
+    border-bottom: none;
+    font-family: 'Spartan', sans-serif;
+    }
+   
+    .app-works h3{
+      font-size: 30px;
+      padding-bottom: 15px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .app-img{
+      width: 45px;
+      height: 45px;
+      font-family: 'Poppins', sans-serif;
+    }
+  
+ /* .sab-name{
+    display: block !important;
+    background-image: url("app-pic.png");
+    width: 100%;
+    height: auto;
+   
+  }*/
+  .app-text{
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+  } 
+  .app-mob{
+    display: block !important;
+    width: 100%;
+    background-size: cover;
+    background-image: url(app-pic.png);
+    height: 110px;
+    color: white;
+    font-size: 80px;
+   
+  }  
+  .app-mob p{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  .app-web{
+ 
+    width: 240px;
+    /*margin: auto;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+  }
+  .app-1{
+    display: block;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+  }
+  .app-left{
+    clear: both;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+  }
+  .app-left p{
+    margin-top: 30px;
+    font-weight:500;
+  }
+  .app-right{
+    
+    width: 80%;
+    margin:auto;
+    margin-bottom: 50px;
+    font-size: 15px;
+  }
+  .app-right p{
+    margin-top: 30px;
+    font-weight:500;
+  }
+  .pic-app{
+    position: relative;
+    display: block !important;
+    width: 450px;
+    height: auto;
+  }
+  .icon{
+    width: 80%;
+    margin: auto;
+
+  }
+  .yoko{
+    width: 33%;
+    margin: auto;
+    
+  }
+  /* .yoko-middle{
+    clear: both;
+    width: 100%;
+  margin-left: 0;
+    margin-top: 5px;
+    margin-left: 8%; 
+    margin: auto;
+  } */
+  .yoko-middle p{
+    display: none !important;
+  }
+  /* .yoko-left{
+    clear: both;
+    width: 100%;
+    margin-bottom: 0;
+    margin: auto;
+  } */
+  .yoko-left p{
+    display: none !important;
+  }
+  /* .yoko-right{
+    clear: both;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-left: 8%; 
+    margin: auto;
+  } */
+  .yoko-right p{
+    display: none !important;
+  }
+ 
+  .apps{
+    width: 60%;
+    height:auto;
+    max-width: 240px;
+    margin-bottom: 20px;
+  }
+
+}
+@media screen and (max-width:414px){
+  .icon{
+    width: 80%;
+    margin: auto;
+  
+  }
+  .yoko-right{
+    clear: both;
+    width: 80%;
+  
+    /* margin-top: 5px;
+    margin-left: 8%; */
+    margin: auto;
+    margin-left: 10%;
+  }
+  .yoko-left{
+    clear: both;
+    width: 80%;
+    margin-bottom: 0;
+    margin: auto;
+    margin-left: 10%;
+  }
+  .yoko-middle{
+    clear: both;
+    width: 80%;
+  margin-left: 0;
+    /* margin-top: 5px;
+    margin-left: 8%; */
+    margin: auto;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width:375px){
+  .yoko-right{
+    clear: both;
+    width: 100%;
+    margin-left: 0;
+    /* margin-top: 5px;
+    margin-left: 8%; */
+    margin: auto;
+  }
+  .yoko-left{
+    clear: both;
+    width: 100%;
+    margin-bottom: 0;
+    margin: auto;
+  }
+  .yoko-middle{
+    clear: both;
+    width: 100%;
+  margin-left: 0;
+    /* margin-top: 5px;
+    margin-left: 8%; */
+    margin: auto;
+  }
+}
+
+
+.movie{
+  clear: both;
+  position: relative;
+  /*display: flex;*/
+  /*width: 280px;*/
+  /*text-align: center;*/
+  margin: auto;
+  width: 450px;
+}
+.mov-mob{
+  display: none !important;
+  }
+.mov-web{
+  border-bottom: 2px solid black;
+  width: 450px;
+  margin: auto;
+ 
+  margin-bottom: 50px;
+  
+}
+
+.pic-mov{
+  display: none !important;
+}
+.movie-img{
+  width: 62px;
+  height: 70px;
+  margin-right: 10px;
+  float: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.movie h3{
+  position: relative;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 25px;
+  width: 100%;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.movie-text{
+  margin: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.movie-1{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+.movie-bottom{
+  width: 80%;
+  text-align: center;
+  margin: 0 10% 50px 10%;
+  font-size: 20px;
+}
+.sakuhin{
+  text-align: center;
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+
+}
+.icon-mov{
+    width: 100%;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 50px;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-weight: 400;
+   margin-left: 17%;
+}
+.yoko-mov{
+  width: 20%;
+  float: left;
+  
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 3%;
+
+}
+
+
+@media screen and (max-width:480px){
+  .movie{
+    margin: 0;
+    clear: both;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .movie-1{
+    line-height: 2.5em;
+  }
+  .movie h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+  }
+  .movie-img{
+    width: 40px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .mov-mob{
+    display: block !important;
+    width: 100%;
+    background-size: cover;
+    background-image: url(mov-pic.png);
+    height: 110px;
+    color: white;
+    font-size: 80px;
+ 
+  }  
+  .mov-mob p{
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+  
+    font-weight: 600;
+  }
+  .movie-text{
+    font-size: 15px;
+  }
+  .movie-1{
+    width: 80%;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    text-align: left;
+  }
+  .mov-web{
+    width: 260px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+  }
+  .pic-mov{
+    display: block !important;
+    width: 100%;
+    height: auto;
+  }
+  .movie-bottom{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .icon-mov{
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .movie-name{
+    font-size: 15px;
+  }
+  .yoko-mov{
+    clear: both;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.intellegs{
+  clear: both;
+  position: relative;
+  /*display: flex;*/
+  /*width: 170px;*/
+  /*text-align: center;*/
+  /*margin: 30px 42%;*/
+  width: 500px;
+  margin: auto;
+  font-size: 100px;
+}
+.intellegs h3{
+  position: relative;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.inte-mob{
+  display: none !important;
+  }
+.inte-web{
+  display: flex !important;
+  border-bottom: 2px solid black;
+  width: 360px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size:100px;
+}
+.pic-inte{
+  display: none !important;
+  width: 100px;
+}
+.inte-img{
+  width: 60px;
+  height: 80px;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inte-1{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+ margin-top: 50px;
+ font-family: 'Noto Sans JP', sans-serif;
+    
+}
+.inte-text{
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.link{
+  padding-top: 10px;
+}
+.btn{
+  color: gray;
+  font-weight: 300;
+  margin: 0;
+}
+.btn-border {
+  display: inline-block;
+  max-width: 480px;
+  text-align: left;
+  border: 1.5px solid gray;
+  box-shadow:4px 4px gray;
+  font-size: 26px;
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px 12px;
+  border-radius: 4px;
+  transition: .4s;
+
+}
+
+.btn-border:hover {
+  background-color: #444444;
+  border-color: #444444;
+  color: #FFF;
+  box-shadow: none;
+  margin-left: 10px;
+}
+@media screen and (max-width:480px){
+  .intellegs{
+    margin: 0;
+    clear: both;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .intellegs h3{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+  }
+ 
+  .inte-mob{
+    display: block !important;
+    width: 100%;
+    background-size: cover;
+    background-image: url(inte-pic.png);
+    height: 110px;
+    color: white;
+    font-size: 80px;
+    
+  } 
+  .inte-mob p{
+    margin: 0;
+    font-size: 70px;
+    padding-top: 45px;
+    padding-left: 10px;
+    font-size: 53px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: -2px;
+  }
+  .inte-1{
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+  }
+  /* .inte-1 p{
+    margin-bottom: 13px;
+  } */
+  .inte-text{
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    
+  }
+  .pic-inte{
+    display: block !important;
+    width: 450px;
+    height: auto;
+  }
+  .inte-web{
+  width: 270px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+.inte-img{
+  width: 50px;
+  height: 70px;
+  padding-bottom: 15px;
+  font-family: "Hiragino kaku Gothic";
+}
+.link{
+  width: 211.59px;
+  margin: auto;
+  text-align: center;
+}
+.btn{
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 13px;
+  margin: 0;
+}
+.btn-border {
+  display: inline-block;
+  max-width: 480px;
+  text-align: left;
+  border: 2px solid gray;
+  box-shadow:3px 3px gray;
+  
+    
+
+  font-size: 15px;
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn-border:hover {
+  background-color: #444444;
+  border-color: #444444;
+  color: #FFF;
+  box-shadow: none;
+  margin-left: 10px;
+}
+}
+
+
+
+
+.bottom {
+  position: relative;
+  text-align: center;
+  margin: 120px 0 0 0;
+  font-family: 'Spartan', sans-serif;
+  font-size: 90px;
+  color: gray;
+  border-bottom: 1px solid #707070;
+}
+.research{
+  position: relative;
+  top: 10px;
+  width: 80%;
+  margin: 60px 10% 30px 10% ;
+ 
+}
+
+.aso{
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 2.5em;
+}
+.name-aso{
+  font-size: 50px;
+  font-family: "Hannari";
+  text-align: center;
+  margin-bottom:20px;
+}
+.name-ar{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom:20px;
+}
+.name-watch{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'M PLUS 1p', sans-serif;
+  margin-bottom:20px;
+}
+.aso-pic{
+  display: none !important;
+}
+.ar-pic{
+  display: none !important;
+}
+.watch-pic{
+  display: none !important;
+}
+@media screen and (max-width:480px){
+  .jisyuken{
+    padding-bottom: 80px;
+  }
+.name-aso{
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  font-family: "Hannari";
+}
+.name-ar{
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+.name-watch{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+  .research{
+    width: 100%;
+    margin: 0;
+  }
+  .bottom{
+    margin: 0;
+    font-size: 50px;
+    color: gray;
+    border-bottom: none;
+    font-family: 'Spartan', sans-serif;
+    padding-top: 70px;
+  }
+  .aso-pic{
+    display: block !important;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .ar-pic{
+    display: block !important;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .watch-pic{
+    display: block !important;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .aso{
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+}

@@ -1,0 +1,438 @@
+html,body,main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* overflow:hidden; */
+  
+}
+
+.top__body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  
+}
+
+.left{
+width:58%;
+height:100%;
+margin: 0px;
+}
+
+.left__photo{
+  width:100%;
+  height:100%;
+  background-image: url(hirano117.jpg);
+  background-size: cover;
+}
+
+.left__font{
+  display:none;
+}
+
+
+.right{
+  width: 42%;
+  height: 100%;
+  /* margin:auto; */
+  display: flex;
+}
+.right__1{
+width:90%;
+height:auto;
+margin-top:300px;
+text-align: right;
+margin-left:10%;
+    
+    
+  }
+
+.right__title{
+ text-align: center;
+}
+.right__maintitle{
+margin:0;
+margin-top:10px;
+margin-bottom:20px;
+font-family: "Arial Black";
+font-size:55px;
+}
+
+.title__sub{
+  text-align: center;
+  /* safariでも使えるフォント */
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 24px;
+  font-weight: 10;
+  margin: 0px;
+  padding-right:12px;
+  letter-spacing: -0.07em;
+  color:gray;
+}
+
+.right__main__sub{
+ margin:0;
+ margin-top:10px;
+ font-family: "Arial Black";
+ font-size:55px;
+
+}
+
+.right__2020{
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: -0.05em;
+    margin: 0px;
+    margin-top:20px;
+}
+
+.right-middle{
+  width: 10%;
+  height:auto;
+  margin:auto;
+  margin-bottom:2%;
+  margin-right:2%;
+}
+
+h5{
+
+  /* 3秒待ってからアニメーションする */
+  -webkit-animation-duration: 3.0s;
+  animation-delay:3.0s;
+
+  /* ５秒かけてアニメーションする */
+ -webkit-animation-duration: 10s;
+ animation-duration: 10s;
+}
+
+.right__right{
+  width:100%;
+  height:100%;
+  /* margin-top:20px; */
+
+  
+}
+
+.share{
+    writing-mode: vertical-rl;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  
+}
+
+.border{
+    width: 1px;
+    height: 100px;
+    background-color: grey;
+    margin-left: 23px;
+    margin-top:12px;
+}
+.youtube img{
+  width: 32px;
+}
+.youtube{
+    margin-top:50px;
+    margin-left:8px;
+  
+  
+}
+
+.twitter{
+  margin-top:10px;
+  margin-left:8px;
+
+}
+.twitter img{
+  width: 32px;
+}
+.insta{
+  margin-top:10px;
+  margin-left:8px;
+}
+.insta img{
+  width: 32px;
+}
+
+.teams{
+  margin-top:10px;
+  margin-left:8px;
+}
+
+.teams img{
+
+  width: 32px;
+}
+
+footer{
+  width: 100%;
+  background-color: none;
+  color: white;
+  padding:0;
+padding-left:10px;
+position: absolute;
+  bottom: 0; 
+  font-size:6px;
+}
+
+
+@media screen and (max-width: 1050px) {
+  html,body,main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow:hidden; */
+    
+  }
+  
+  .top__body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    
+  }
+  
+  .left{
+  width:65%;
+  height:100%;
+  margin: 0px;
+  }
+  
+  .left__photo{
+    width:100%;
+    height:100%;
+    background-image: url(azkkkk.png);
+    background-size: cover;
+  }
+  
+  .left__font{
+    display:none;
+  }
+  
+  
+  .right{
+    width: 35%;
+    height: 100%;
+    /* margin:auto; */
+    display: flex;
+  
+  }
+  .right__1{
+  width:90%;
+  height:auto;
+  margin-top:325px;
+  /* margin-bottom:65%; */
+  
+  /* text-align: center; */
+  
+      
+      
+    }
+  
+  .right__title{
+   text-align: center;
+  }
+  .right__maintitle{
+  margin:0;
+  margin-top:10px;
+  font-family: "Arial Black";
+  font-size:32px;
+  margin-bottom:12px;
+  }
+
+  .right__main__sub{
+    margin:0;
+    margin-top:10px;
+    
+    font-family: "Arial Black";
+    font-size:32px;
+   
+   }
+  
+  .title__sub{
+    text-align: center;
+    /* safariでも使えるフォント */
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 13px;
+    font-weight: 10;
+    margin: 0px;
+    padding-right:12px;
+    letter-spacing: -0.07em;
+    color:gray;
+  }
+  
+  .right__2020{
+      text-align: center;
+      font-family: "Arial Black";
+      font-size: 30px;
+      font-weight: 100;
+      letter-spacing: -0.05em;
+      margin: 0px;
+      margin-top:8px;
+  }
+  
+  .right-middle{
+    width: 10%;
+    height:auto;
+    margin:auto;
+    margin-bottom:5%;
+    margin-right:2%;
+  }
+  
+  /* .right__left{
+  width:90%;
+  height:100%;
+  } */
+  
+  .right__right{
+    width:100%;
+    height:100%;
+    /* margin-top:20px; */
+  
+    
+  }
+  
+  .share{
+      writing-mode: vertical-rl;
+      color: grey;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size:13px;
+    
+  }
+  
+  .border{
+      width: 0.2px;
+      height: 100px;
+      background-color: grey;
+      margin-left: 22px;
+      margin-top:12px;
+  }
+  
+  .youtube{
+      margin-top:50px;
+      margin-left:8px;
+    
+  }
+  
+  .twitter{
+    margin-top:10px;
+    margin-left:8px;
+  
+  }
+  
+  .insta{
+    margin-top:10px;
+    margin-left:8px;
+  }
+
+  .teams{
+    margin-top:10px;
+    margin-left:8px;
+  }
+  
+  footer{
+    width: 100%;
+    background-color: none;
+    color: white;
+    padding:0;
+  padding-left:10px;
+  position: absolute;
+    bottom: 0; 
+    font-size:2px;
+  }
+}
+
+@media screen and (max-width: 480px)and (-webkit-min-device-pixel-ratio:0) {
+
+  .left{
+  width:100%;
+  height:100%;
+  margin: 0px;
+  background-image: url(hira.png);
+  background-size: cover;
+  
+}
+
+.left__photo{
+  display:none;
+}
+  .left__font{
+    display:block;
+    width: 100%;
+    margin:auto;
+    height:auto;
+    font-size:2px;
+    margin-top: 205px;
+    text-align: center;
+  }
+
+ 
+  
+
+  .title-left__sub{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    margin: 0px;
+    margin-right:115px;
+    /* letter-spacing: -0.08em; */
+    color:white;
+  }
+
+.left__maintitle{
+  font-family: 'Poppins', sans-serif;
+  font-size:22px;
+  margin:auto;
+  margin-right:110px;
+  letter-spacing: -0.02em;
+  color:white;
+  font-weight: 700;
+  line-height: 1.5em
+}
+
+.left__2020{
+  font-family: 'Poppins', sans-serif;
+  font-size:20px;
+  margin:auto;
+  margin-right:110px;
+  letter-spacing: -0.05em;
+  color:white;
+  font-weight: 700;
+}
+.right{
+  display: none;
+}
+footer{
+  display:none;
+}
+
+.foo__1{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  color: white;
+
+  position: absolute;
+  bottom: 0; 
+
+  padding:0;
+/* position: absolute; */
+  
+/* margin-top: 230px; 
+  font-size:5px; */
+  font-size: 5px;
+}
+  
+}
+

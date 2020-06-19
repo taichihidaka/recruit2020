@@ -1,0 +1,666 @@
+html,body,h2,p {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+   
+  
+}
+.effect-fade {
+  opacity : 0;
+  transform : translate(0, 50px);
+  transition : all 730ms;
+  }
+  
+  .effect-fade.effect-scroll {
+  opacity : 1;
+  transform : translate(0, 0);
+  }
+
+
+
+.guideline{
+  width:100%;
+  height:100%;
+}
+.guideline__title{
+  color:gray;
+  width:100%;
+  font-size:60px;
+  margin:0;
+  text-align: center;
+  padding-top: 85px;
+  border-bottom: 1px solid gray;
+  font-family: 'Spartan', sans-serif;
+
+
+  /* 最初に出てくる */
+  animation-name: fade-in4;
+  animation-duration: 1s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s; 
+  animation-iteration-count: 1; 
+  animation-direction: normal; 
+  animation-fill-mode: forwards;
+}
+
+
+/* 最初に出てくる */
+@keyframes fade-in4 {
+  0% {
+    opacity: 0;
+    transform: translate3d(-230px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.top__1{
+  margin-top: 50px;
+ 
+}
+
+.top__2{
+ 
+  display: flex !important;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+
+
+    animation-name: fade-in3;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1; 
+    animation-direction: normal; 
+    animation-fill-mode: forwards; 
+  
+}
+
+
+@keyframes fade-in3 {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.human__1{
+  width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    
+}
+
+h4{
+  position: relative;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;;
+}
+/* 
+.border__bottom{
+  height: 2px;
+  background-color: black;
+  width:410px;
+  border: none;
+  margin: 0 auto;
+  margin-right: 400px;
+  
+} */
+
+
+
+.detail{
+  
+  max-width: 1200px;
+  margin:auto;
+  height:auto;
+   display:flex;
+  font-size:22px;
+  margin-top: 100px;
+  line-height: 2.5em;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom:110px;
+
+
+  animation-name: fade-in3;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1; 
+  animation-direction: normal; 
+  animation-fill-mode: forwards; 
+}
+
+.detail__detail{
+  margin:62px;
+  display:flex;
+}
+
+.human__left{
+  width:50%
+  
+  
+}
+.human__right{
+width:50%;
+margin-left:15%;
+}
+
+.ex{
+  width:100%;
+  margin-top:100px;
+}
+
+.ex__1{
+  
+  display: flex !important;
+  width: 400px;
+  height:auto;
+  text-align: center;
+  margin: auto;
+  padding-left:15px;
+  border-bottom: 2px solid black;
+  
+}
+
+.expe__2{
+  /* margin-top:35px;
+  margin-bottom:25px; */
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+
+.ex__main{
+  max-width:1160px;
+  margin:auto;
+  height:auto;
+  font-size:20px;
+  /* line-height:2.5; */
+  text-align: center;
+}
+
+.ex__ex{
+  margin:80px;
+}
+
+.overview{
+  font-family: 'Poppins', sans-serif;
+  margin-top:120px;
+  margin-bottom:30px;
+  font-size:40px;
+color:gray
+
+}
+
+.ex__top{
+  /* margin-top:20px; */
+  margin-bottom:30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:23px;
+  
+}
+
+.attention{
+  font-family: 'Poppins', sans-serif;
+  margin-top:150px;
+  margin-bottom:30px;
+  font-size:40px;
+  color:red;
+}
+.ex__middle{
+  margin-bottom:100px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:23px;
+}
+
+.ex__bottom{
+  margin-bottom: 3px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 23px;
+}
+
+.scadule{
+  font-family: 'Poppins', sans-serif;
+  margin-top:150px;
+  margin-bottom:30px;
+  font-size:40px;
+color:gray
+
+
+}
+
+.ex__under{
+  margin-bottom:30px;
+ color:gray;
+ 
+ font-family:'Noto Sans JP', sans-serif;
+ font-size:20px;
+
+}
+
+.container__2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 200;
+}
+
+.qqq{
+
+  color:gray;
+  font-weight: 300;
+}
+
+
+
+/* ここから下がボタンのCSS　*/
+.btn-border {
+  display: inline-block;
+  max-width: 480px;
+  text-align: left;
+  border: 1.5px solid gray;
+  box-shadow:4px 4px gray;
+  font-size: 26px;
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px 12px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn-border:hover {
+  background-color:#444444;
+  border-color: #444444;
+  color: white;
+  box-shadow:none;
+  margin-left:10px;
+}
+
+.container__3{
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+
+  .detail{
+    
+    max-width: 1500px;
+    margin:auto;
+    /* padding-left:120px; */
+    height:auto;
+    display:block;
+    font-size:20px;
+    margin-top: 100px;
+    line-height: 2.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom:170px;
+    /* text-align: center; */
+  }
+  
+  .detail__detail{
+    display:block;
+    text-align: center;
+   }
+  
+  .human__left{
+    text-align: left;
+    width:100%;
+    padding-left:15%;
+    padding-right:15%;
+    
+    
+  }
+  .human__right{
+    text-align: left;
+  width:100%;
+  margin:0;
+  padding-left:15%;
+  padding-right:15%;
+  
+  }
+  
+  .ex{
+    width:100%;
+    margin-top:100px;
+  }
+  
+  .ex__1{
+    
+    display: flex !important;
+    width: 400px;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    padding-left:15px;
+    border-bottom: 2px solid black;
+    
+  }
+  
+  .expe__2{
+    /* margin-top:35px;
+    margin-bottom:25px; */
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+  }
+  /* 
+  .border__under{
+    height: 2px;
+    background-color: black;
+    width:420px;
+    border: none;
+    margin: 0 auto;
+    margin-right:400px;
+  } */
+  
+  .ex__main{
+    max-width:1160px;
+    margin:auto;
+    height:auto;
+    font-size:20px;
+    /* line-height:2.5; */
+    text-align: center;
+  }
+  
+  .ex__ex{
+    margin:100px;
+  }
+  
+  .overview{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500; */
+    margin-top:90px;
+    margin-bottom:30px;
+    font-size:40px;
+  color:gray
+  
+  }
+  
+  .ex__top{
+    /* margin-top:20px; */
+    margin-bottom:30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:23px;
+    
+  }
+  
+  .attention{
+    font-family: 'Poppins', sans-serif;
+    margin-top:50px;
+    margin-bottom:30px;
+    font-size:40px;
+  color:red;
+  }
+  .ex__middle{
+    margin-bottom:100px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:23px;
+  }
+  
+  .ex__bottom{
+    margin-bottom: 3px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+  }
+  
+  .scadule{
+    font-family: 'Poppins', sans-serif;
+    margin-top:50px;
+    margin-bottom:30px;
+    font-size:40px;
+  color:gray
+  
+  }
+  
+  .ex__under{
+    margin-bottom:30px;
+   color:gray;
+   
+   font-family:'Noto Sans JP', sans-serif;
+   font-size:20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html,body,h2,p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+     
+    
+  }
+
+  .guideline{
+    width:100%;
+    height:100%;
+  }
+  .guideline__title{
+    color:gray;
+    width:100%;
+    font-size:40px;
+    margin:0;
+    text-align: center;
+    padding-top: 80px;
+    border-bottom: none;
+  }
+    
+  .top__1{
+    width:100%;
+    height:auto;
+  }
+  
+  .top__2{
+    width: 230px;
+    /* margin: auto; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  .human__1{
+    width: 40px;
+    height: 40px;
+    margin-bottom:10px;
+  }
+  
+  h4{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom:0;
+  }
+  
+  .detail{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    display:block;
+    max-width: 230px;
+    margin:auto;
+    height:auto;
+    font-size:12px;
+    margin-top: 30px;
+    line-height: 2.5em;
+  }
+
+  .detail__detail{
+    /* display:none; */
+    margin:0;
+    text-align: center;
+
+  }
+  
+  
+  .human__left{
+    padding:0;
+    width:100%
+    
+  }
+  .human__right{
+  width:100%;
+  margin:0;
+  padding:0;
+  }
+  
+  /* .ex{
+    width:100%;
+    margin:0;
+    margin-top:70px;
+  }
+   */
+  .ex__1{
+    width: 250px;
+    /* margin: auto; */
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding:7px;
+  }
+
+  .overview{
+    display:inline;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500; */
+    
+    font-size:25px;
+  color:gray
+  }
+  
+.ex__ex{
+  margin:0;
+}
+
+.expe__2{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+  .ex__main{
+    
+    max-width: 300px;
+    margin:auto;
+    height:auto;
+    font-size:14px;
+   
+  }
+  
+  .ex__top{
+    font-size: 13px;
+  vertical-align: bottom;
+    margin-bottom:20px;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top:15px;
+    margin-bottom:5px;
+   line-height: 2.5em;
+  }
+  
+  .ex__middle{
+    font-size: 13px;
+  vertical-align: bottom;
+  margin-top:10px;
+    margin-bottom:30px;
+    
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2.5em;
+  }
+  
+  .ex__bottom{
+    font-size: 13px;
+  vertical-align: bottom;
+    text-align: left;
+    line-height: 2.5em;
+    margin-top:10px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .ex__under{
+    margin-bottom:35px;
+   color:gray;
+   font-size:10px;
+   text-align:initial;
+   font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  .scadule{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    margin-top:50px;
+    font-size:25px;
+  }
+
+
+.container__2 {
+  display:none;
+  /* font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 200; */
+}
+.container__3{
+  display:block;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 400;
+}
+.qqq1{
+
+  color:black;
+  font-weight:400;
+}
+/* ここから下がボタンのCSS　*/
+.btn-border1 {
+  display: inline-block;
+  max-width: 480px;
+  text-align: left;
+  border: 2px solid black;
+  box-shadow:3px 3px black;
+  
+    
+
+  font-size: 15px;
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn-border1:hover {
+  background-color:gray;
+  border-color: gray;
+  color: white;
+  box-shadow:none;
+  margin-left:10px;
+}
+
+  .attention{
+    display:inline;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size:25px;
+    
+  }
+}

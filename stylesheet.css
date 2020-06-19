@@ -1,0 +1,739 @@
+html,body,header,main,footer{
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 0;
+}
+.wrapper{
+  min-height: 100vh;
+  position: relative;
+}
+header {
+  padding: 10px;
+  background-color:rgba(255,255,255, 50%);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  
+  }
+
+  header {
+    padding: 10px;
+    background-color:rgba(255,255,255, 50%);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    
+    }
+    .header-2 {
+      padding: 10px;
+      
+      position: fixed;
+    
+      width: 100%;
+      
+      }
+   @media screen and (max-width: 480px){
+    header{
+     padding: 0;
+      width: 100%;
+      top: 0;
+    } 
+    body{
+      overflow-x: hidden;
+      max-width: 480px;
+    }
+    main{
+      max-width: 480px;
+    }
+   }
+
+ 
+
+  
+.logo-img{ 
+  float: left;
+  width: 60px;
+  height: auto;
+  margin-left: 20px;
+  
+}
+
+.logo-text{
+  width: auto;
+  height: 61.22px;
+  text-align: left;
+  margin-left: 100px;
+  color:black;
+  text-decoration: none;
+  padding-top: 6px;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 480px){
+header{
+  height: 70px;
+}
+.logo-img{ 
+  float: left;
+  width: 50px;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 10px;
+ 
+}
+  .logo-text{
+    font-size: 11px;
+    margin: 0;
+  
+    max-width: 480px;
+    margin-top: 16px;
+    margin-left: 80px;
+    padding: 0;
+    font-family: 'Be Vietnam', sans-serif;
+  font-weight: 800;
+ 
+  }
+}
+
+
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+input {
+  display: none;
+
+}
+/*menuコンテンツ*/
+.cp_fullscreenmenu .menu {
+  z-index: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	background-color: white;
+}
+
+.menu ul{
+  position: relative;
+  left: 0;
+  max-width: 50%;
+  margin: auto;
+  
+}
+.cp_fullscreenmenu .menu ul  {
+  position: absolute;
+  top: -10vw;
+  /*中身の文字の位置*/
+  left: 40%;
+	margin: 100px;
+	padding: 0;
+	list-style-type: none;
+	transition: all 0.3s ease-in-out;
+	-webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  
+}
+
+.cp_fullscreenmenu .menu li {
+	-webkit-transform: translateY(50px);
+	        transform: translateY(50px);
+	opacity: 0;
+}
+/*メニューの中身*/
+.cp_fullscreenmenu .menu ul li a {
+	font-size: 70px;
+	/* font-weight: bold; */
+	display: block;
+	padding: 10px 0;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+.text-ham{
+  max-width: 50%;
+  margin: auto;
+}
+
+/*マウスが上にきたときの色*/
+.cp_fullscreenmenu .menu ul li a:hover {
+	color:black;
+}
+/*クリックしたらメニューが開閉の動作*/
+.cp_fullscreenmenu #toggle:checked ~ .menu {
+	visibility: visible;
+	opacity: 3;
+}
+
+
+.cp_fullscreenmenu #toggle:checked ~ .menu ul {
+	top: 0px;
+}
+.cp_fullscreenmenu #toggle:checked ~ .menu li {
+	-webkit-transform: translateY(0px);
+	        transform: translateY(0px);
+	opacity: 1;
+}
+.cp_fullscreenmenu #toggle:checked ~ .menu li:nth-child(1) {
+	transition: all 0.3s cubic-bezier(0.6, 0, 0.8, 1.5) 0.1s;
+}
+.cp_fullscreenmenu #toggle:checked ~ .menu li:nth-child(2) {
+	transition: all 0.3s cubic-bezier(0.6, 0, 0.8, 1.5) 0.2s;
+}
+.cp_fullscreenmenu #toggle:checked ~ .menu li:nth-child(3) {
+	transition: all 0.3s cubic-bezier(0.6, 0, 0.8, 1.5) 0.3s;
+}
+.cp_fullscreenmenu #toggle:checked ~ .menu li:nth-child(4) {
+	transition: all 0.3s cubic-bezier(0.6, 0, 0.8, 1.5) 0.4s;
+}
+.cp_fullscreenmenu #toggle:checked + label.hamburger .bar {
+  background-color:black;
+  z-index: 2;
+}
+ #toggle:checked + label.hamburger .bar:nth-child(2) {
+	-webkit-transform: translateX(50px);
+	        transform: translateX(50px);
+	opacity: 0;
+}
+.cp_fullscreenmenu #toggle:checked + label.hamburger .bar:nth-child(1) {
+	-webkit-transform: translateY(10px) rotate(45deg);
+	        transform: translateY(10px) rotate(45deg);
+}
+.cp_fullscreenmenu #toggle:checked + label.hamburger .bar:nth-child(3) {
+	-webkit-transform: translateY(-8px) rotate(-45deg);
+	        transform: translateY(-8px) rotate(-45deg);
+}
+
+
+
+
+/*ハンバーガー*/
+.cp_fullscreenmenu .hamburger {
+	position: fixed;
+	z-index: 10;
+	top: 30px;
+	right: 10px;
+	display: block;
+  cursor: pointer;
+
+}
+
+
+/*ハンバーガーボタンの書式*/
+.cp_fullscreenmenu .hamburger .bar {
+	width: 30px;
+	height: 2px;
+  margin: 7px auto;
+	transition: all 0.3s ease-in-out;
+  background-color: black;
+ /* font-weight: bold;*/
+ font-size: 100px;
+}
+
+.bar{
+  font-size: 500;
+}
+.hamburger-menu{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 130px;
+}
+.hamburger-menu li{
+  list-style: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  margin: 10px;
+}
+
+
+.sns{
+  width: 45px;
+  height: 30px;
+  text-align: center;
+  list-style-type: none;
+  margin: auto;
+}
+.sns a{
+  display: block;
+}
+
+.youtube-ham {
+  width: 45px;
+  height: auto;
+  bottom: 0%;
+  
+}
+
+.insta-ham{
+  display: inline;
+  left: 30px;
+  width: 45px;
+  height: auto;
+  bottom: 0%;
+
+}
+.twitter-ham{
+  display: inline;
+  left: 60px;
+  width: 45px;
+  height: auto; 
+  bottom: 0%;
+
+}
+
+.teams-ham{
+  display: inline;
+  left: 60px;
+  width: 45px;
+  height: auto; 
+  bottom: 0%;
+
+}
+
+
+.cr-ham{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size:7px;
+  text-align: left;
+  color:black;
+ margin-top: 60px;
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ transform: translate(-50%);
+}
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) and (-webkit-min-device-pixel-ratio:0)and (max-width: 480px){
+    .menu{
+      left: 0;
+    }
+    .logo-img-2{
+      display: none !important;
+      }
+      .logo-text-2{
+       display: none !important;
+      }
+      .header-2{
+        display: none;
+      }
+   
+       .hamburger{
+         margin-top: 13px;
+         margin-right: 8px;
+       }
+       .logo-text-2-ham span{
+         font-size: 3px;
+         top: -2px;
+       }
+       .menu li a{
+        font-size: 40px;
+       left: 0;
+       text-align: left;
+    
+       }
+       .hamburger-menu{
+         margin-top: 40px;
+       }
+      
+       .cp_fullscreenmenu .menu ul li a {
+         font-size: 40px;
+         top: 100px;
+       }
+      .cp_fullscreenmenu #toggle:checked ~ .menu ul {
+        top: 40px;
+      }
+     /*ハンバーガーボタンのいち*/
+    .cp_fullscreenmenu .hamburger{
+      top: 3px;
+      right: 10px;
+    }
+    .cp_fullscreenmenu .menu ul{
+      left: 50%;
+      height: 70%;
+      margin: auto;
+     
+    }
+    .menu ul{
+      top: 100px;
+     
+
+    }
+    .hamburger-menu li{
+      font-size: 40px;
+      height: auto;
+      margin: 0;
+      height: 70px;
+    }
+    .sns{
+      width: 53px;
+      margin: auto;
+    }
+    
+    .sns a{
+      margin: 0;
+      bottom: 0;
+      display: block;
+    }
+    .sns li{
+      width: 100%;
+      top: 80%;
+      right: 0;
+      height: 60px;
+      text-align: center;
+      margin: auto;
+   
+
+    }
+
+    .youtube-ham{
+      width: 45px;
+      height: auto;
+    }
+    .insta-ham{
+   width: 45px;
+   height: auto;
+   display: block;
+   margin: auto;
+    }
+    .twitter-ham{
+   width: 45px;
+   height: auto;
+   display: block;
+   margin: auto;
+    }
+    .teams-ham{
+      width: 43px;
+      height: auto;
+      display: block;
+      margin: auto;
+       }
+    .cr-ham{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size:7px;
+      text-align: left;
+      color:black;
+     bottom: 0;
+    
+     margin-left: 10px;
+      text-align: center;
+     margin-top: 20px;
+    }
+  }
+
+ 
+ footer{
+   margin-top: auto;
+   width: 100%;
+
+ }
+  /*フッター*/
+ 
+
+  .click span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 75px;
+    padding-bottom: 100px;
+    
+  }
+  
+  a.click{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+
+  }
+ 
+  .click{
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid #9ec34b;
+    font-size: 20px;
+    color:gray;
+    text-decoration: none;
+    font-weight: bold;
+    /*padding: 8px 16px;*/
+    
+    transition: .4s;
+    padding: 120px; 
+    margin-top: 300px;
+    margin-bottom: 60px;
+   
+  }
+  
+  .click:hover {
+    background-color: gray;
+    border-color: gray;
+    color: #FFF;
+  }
+ 
+  
+
+  @media screen and (max-width: 735px){
+  
+    a.click{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .click span{
+     font-size: 50px;
+    }
+   
+  }
+  @media screen and (max-width: 610px){
+  
+   a.click{
+    font-size: 12px;
+   }
+ 
+   .click span{
+    font-size: 35px;
+   }
+  
+ }
+  
+
+@media screen and (max-width: 480px){
+  .white{
+    width: auto;
+    padding: 30px;
+
+  }
+  
+  .entry{
+   
+    font-size: 10px;
+  }
+
+  .click span{
+   font-size: 30px;
+  }
+ 
+}
+
+
+ .black{
+   position: absolute;
+   width: 100%;
+   padding: 80px;
+   border: 1px solid #333333;
+   background-color: black;
+   padding-bottom: 10px;
+   
+   
+ }
+ .adress{
+  display: flex;
+  border-bottom: 1px solid white;
+  padding-bottom: 80px;
+ }
+ .web{
+   max-width:50%;
+   height: auto;
+   margin: auto;
+   color: white;
+ }
+ .contact{
+   max-width: 50%;
+   height: auto;
+   color: white;
+   margin: auto;
+   /* margin-left:0; */
+ }
+
+.cr{
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 13px;
+  color: white; 
+  padding-bottom: 0;
+}
+
+
+h5{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:25px;
+    margin:0;
+    margin-bottom:10px;
+}
+
+.app{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.url{
+  font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500;
+    font-size:15px;
+    padding-top:15px;
+}
+
+.cr{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size:15px;
+    text-align: center;
+    color:white;
+}
+.cr p{
+  font-size: 10px;
+  color: white;
+}
+
+
+@media screen and (max-width: 990px){
+  .web{
+    font-size: 20px;
+  }
+  .app{
+    font-size: 10px;
+   
+  }
+  .url {
+    font-size: 10px;
+    
+  }
+}
+@media screen and (max-width: 670px){
+  .adress{
+    display: block;
+  }
+  .web{
+    text-align: left;
+  }
+  .contact{
+    margin-left: none;
+    margin-top: 30px;
+  }
+  .web h5{
+    font-size: 15px;
+  }
+  .contact h5{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px){
+  footer{
+    /* position: relative; */
+    margin-top: auto;
+    position: absolute;  
+  }
+  .white{
+    bottom: 0;
+    padding: 0;
+  }
+  .black{
+    
+    width: 100%;
+    padding: 30px;
+    padding-bottom:10px;
+    
+  }
+  .click{
+    font-size: 10px;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .adress{
+    max-width: 80%;
+    text-align: left;
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 10px;
+    border-bottom:0.05em solid  gray;
+  }
+  .app{
+    letter-spacing: none;
+    font-size: 13px;
+  }
+  .web{
+    margin: auto;
+    max-width: 100%;
+
+  }
+  .contact{
+    margin: auto;
+    max-width: 100%;
+    
+  }
+  .cr{
+    margin: 0;
+    text-align: center;
+    font-size: 4px;
+  }
+
+  a.click{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 8px;
+    letter-spacing: 0.3px;
+  }
+
+  h5{
+    font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size:15px;
+      margin:0;
+      margin-bottom:5px;
+  }
+  
+  .app{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 8px;
+    /* letter-spacing: 1px; */
+  }
+  
+  .url{
+    font-family: 'Hind Madurai', sans-serif;
+      font-weight: 300;
+      font-size:10px;
+      padding-top:10px;
+      margin-bottom:10px;
+  }
+  
+  .cr{
+    font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size:7px;
+      text-align: center;
+      color:white;
+  }
+  .cr p{
+    font-size: 5px;
+    color:gray;
+  }
+}
+
+
